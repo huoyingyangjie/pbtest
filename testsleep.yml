@@ -3,5 +3,4 @@
 
   tasks:
   - name: print host ip information
-    command: sleep 20
-    command: ip addr
+    command: sleep 30 && ip addr
