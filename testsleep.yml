@@ -1,0 +1,7 @@
+- hosts: all
+  gather_facts: no
+
+  tasks:
+  - name: print host ip information
+    command: sleep 20
+    command: ip addr
