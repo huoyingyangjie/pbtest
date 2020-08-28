@@ -4,5 +4,4 @@
    testvar: "xx"
   tasks:
   - name: 打印 host ip information
-    debug:
-     msg: "sdf{{testvar}}"
+    command: ip addr
