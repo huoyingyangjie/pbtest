@@ -1,7 +1,5 @@
-- hosts: localhost
+- hosts: all
   gather_facts: no
-  vars:
-   testvar: "xx"
   tasks:
   - name: 打印 host ip information
     debug:
